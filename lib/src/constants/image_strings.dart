@@ -1,0 +1,11 @@
+const String fpgIcon = "assets/EZHUB.png";
+const String homeIcon = "assets/Home.png";
+const String comProf = "assets/Company Profile.png";
+const String motor = "assets/Motor.png";
+const String travel = "assets/Travel.png";
+const String chart = "assets/Chart.png";
+const String myAuto = "assets/MyAuto Mate.png";
+const String paynamics = "assets/Paynamics.png";
+const String travelInt = "assets/MyTravel Int.png";
+const String travelDom = "assets/MyTravel Dom.png";
+const String myCtpl = "assets/MyCTPL Mate.png";
