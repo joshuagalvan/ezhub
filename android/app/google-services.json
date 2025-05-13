@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "646538415651",
+    "project_id": "ez-hub",
+    "storage_bucket": "ez-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646538415651:android:95ced3d0b60ae22b636b96",
+        "android_client_info": {
+          "package_name": "com.example.simone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE1-e6VLx4YNvIDxdPAxYxDQSwP9OD8T0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
