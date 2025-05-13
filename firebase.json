@@ -1,0 +1,51 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ez-hub",
+          "appId": "1:646538415651:android:95ced3d0b60ae22b636b96",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ez-hub",
+          "configurations": {
+            "android": "1:646538415651:android:95ced3d0b60ae22b636b96",
+            "ios": "1:646538415651:ios:e1e5425184914045636b96",
+            "macos": "1:646538415651:ios:e1e5425184914045636b96",
+            "web": "1:646538415651:web:d595e17404dfc4c1636b96",
+            "windows": "1:646538415651:web:67a1218c8566c368636b96"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "headers": [
+  {
+    "source": "/.well-known/assetlinks.json",
+    "headers": [
+      {
+        "key": "Content-Type",
+        "value": "application/json"
+      }
+    ]
+  }
+],
+"appAssociation": "NONE",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
